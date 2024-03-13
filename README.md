@@ -1,6 +1,6 @@
 ## Dating Copilot
 
-This app generates prompts + responses to common "Hinge" questions, using your [Vana Gotchi](https://www.vana.com/) as a guide. It can also serve as a starting point for other Gotchi-based apps.
+This app generates prompts + responses to common "Hinge" questions, using your [Vana Digital Persona](https://www.vana.com/) as a guide. It can also serve as a starting point for other Persona-based apps.
 
 ## Getting Started
 

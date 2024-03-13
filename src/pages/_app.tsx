@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <title key="title">Vana Hinge Copilot</title>
         <meta
           name="description"
-          content="Craft your perfect dating profile with the help of your Gotchi"
+          content="Craft your perfect dating profile with the help of your Digital Persona"
         />
         {/* Heart emoji as favicon */}
         <link

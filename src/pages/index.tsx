@@ -171,13 +171,12 @@ export default function Home() {
       {/* If the user has an account but no character ID, they have not completed Vana setup */}
       {account && !account.characterId && (
         <p className="mb-2 flex flex-col items-center justify-center gap-2">
-          You need to complete your Vana Gotchi setup before you can use this
-          app.
+          You need to complete your Vana setup before you can use this app.
           <a
-            href="https://gotchi.vana.com/invite"
+            href="https://app.vana.com/invite"
             className="px-6 py-2 text-center bg-black text-white w-[300px] mx-auto rounded-lg"
           >
-            Vana Gotchi Setup &rarr;
+            Setup your Digital Persona &rarr;
           </a>
         </p>
       )}
@@ -258,9 +257,9 @@ function GenerateNewPromptInput({
       >
         {isFirstPrompt ? (
           <h1 className="text-xl font-sans font-bold mx-auto max-w-prose">
-            Welcome! Your Gotchi will help you craft the perfect responses for
-            your dating profile. To get started, we&apos;ll ask your Gotchi a
-            common Hinge prompt, and have it do the work for you!
+            Welcome! Your Digital Persona will help you craft the perfect
+            responses for your dating profile. To get started, we&apos;ll ask
+            your Persona a common Hinge prompt, and have it do the work for you!
           </h1>
         ) : null}
         <button
